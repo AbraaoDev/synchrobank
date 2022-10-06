@@ -37,11 +37,11 @@ This project was developed using the following technologies:
 
 ## 🎯 Endpoints[API]
 
-- **POST** '/api/v1/accounts' -> Criar uma nova conta
-- **GET** '/api/v1/accounts/{id}' -> Buscar Conta[ID]
-- **DELETE** '/api/v1/accounts/{id}' -> Deleta uma conta existente[ID]
-- **POST** '/api/v1/accounts/{id}/cards' -> Criar cartão em uma conta[ID]
-- **DELETE** '/api/v1/accounts/{id}/cards/{id}' -> Deleta um cartão de uma conta existente[ID]
+- **POST** ('/api/v1/accounts') | Criar uma nova conta
+- **GET** ('/api/v1/accounts/{id}') | Buscar Conta[ID]
+- **DELETE** ('/api/v1/accounts/{id}') | Deleta uma conta existente[ID]
+- **POST** ('/api/v1/accounts/{id}/cards') | Criar cartão em uma conta[ID]
+- **DELETE** ('/api/v1/accounts/{id}/cards/{id}') | Deleta um cartão de uma conta existente[ID]
 
 ## 🚀 Getting started
 
